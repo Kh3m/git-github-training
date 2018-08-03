@@ -1,6 +1,8 @@
 
-def listDemo():
-    listName = list(("Kh3m", "Adams", "Joy"))
-
+def list_demo():
+    listName = list(("Evans", "Chi", "Kh3m", "Rita"))
     for name in listName:
-        print(name)
+        if name == "Chi" or name == "Rita":
+            print(name, "Female")
+        else:
+            print(name, " Male")
