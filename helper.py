@@ -14,5 +14,8 @@ class Helper:
         while a < n:
             print(a)
             a,b = b,a+b 
-
-
+            
+    def tuple_demo(self):
+        tupleAge = (23, 26, 24, 21)
+        for age in tupleAge:
+            print(age)
