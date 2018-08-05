@@ -1,3 +1,4 @@
-import dshelper as ds
+import helper
 
-ds.listDemo()
+helper = helper.Helper()
+helper.list_demo()
